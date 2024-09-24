@@ -1,0 +1,75 @@
+from IPython.core.display import display, HTML
+
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gere Carroll's Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+<header>
+    <h1>Gere Carroll's Portfolio</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Gere Carroll, a passionate individual with a diverse background and interests. I love coding, exploring new ideas, and learning about different aspects of life. Currently, I'm focused on expanding my skills in computer science and business.</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: JavaScript, Python, HTML, CSS</li>
+        <li>Frameworks: React, Node.js</li>
+        <li>Tools: Git, GitHub, VSCode</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3><a href="path/to/calculator.html" target="_blank">Gere's Coded Calculator</a></h3>
+        <p>A versatile calculator with advanced features.</p>
+        <img src="images/calculator.png" alt="Gere's Coded Calculator">
+    </div>
+    <div class="project">
+        <h3><a href="https://fruityboyy.com/" target="_blank">FruityBoy Webstore</a></h3>
+        <p>An online store for fruity-themed merchandise.</p>
+        <img src="images/store.png" alt="FruityBoy Webstore">
+    </div>
+    <div class="project">
+        <h3><a href="https://gerenitron.wixsite.com/it-boy" target="_blank">IT Blog</a></h3>
+        <p>My IT blog where I share my insights, tutorials, and experiences in the world of technology.</p>
+        <img src="images/blog.png" alt="IT Blog">
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <p>I am currently in my final semester at Delaware Technical Community College, pursuing a degree in Science with a focus on computer science. I have made the Dean's List multiple times and gained valuable experience through various projects and internships.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me at: <a href="mailto:gerenitron@gmail.com">gerenitron@gmail.com</a></p>
+    <p>Connect with me and view my projects on <a href="https://github.com/gerenitron">GitHub</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Gere Carroll. All rights reserved.</p>
+</footer>
+</body>
+</html>
+"""
+
+display(HTML(html_content))
